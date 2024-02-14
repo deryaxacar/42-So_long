@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:34:33 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:46:38 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:33:58 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:33:59 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ static char	*ft_copy_to_stash(char *stash, char *buf)
 	return (res);
 }
 
-static int	ft_have_nl(char *s)
+static int	ft_control_newline(char *s)
 {
 	size_t	i;
 
@@ -42,7 +42,7 @@ static int	ft_have_nl(char *s)
 	return (0);
 }
 
-static char	*ft_extract_line(char *stash)
+static char	*ft_control_line(char *stash)
 {
 	char	*line;
 	size_t	i;
@@ -91,24 +91,24 @@ static char	*ft_recreate_stash(char *stash)
 char	*get_next_line(int fd)
 {
 	char		buf[BUFFER_SIZE + 1];
-	long		bytes_read;
+	long		ret;
 	static char	*stash = NULL;
 	char		*line;
 
 	line = 0;
-	bytes_read = BUFFER_SIZE;
+	ret = BUFFER_SIZE;
 	if (fd < 0 || BUFFER_SIZE <= 0)
 		return (ft_free_stash(&stash, 0));
-	while (bytes_read > 0)
+	while (ret > 0)
 	{
-		bytes_read = read(fd, buf, BUFFER_SIZE);
-		if ((bytes_read <= 0 && !stash) || bytes_read == -1)
+		ret = read(fd, buf, BUFFER_SIZE);
+		if ((ret <= 0 && !stash) || ret == -1)
 			return (ft_free_stash(&stash, 0));
-		buf[bytes_read] = '\0';
+		buf[ret] = '\0';
 		stash = ft_copy_to_stash(stash, buf);
-		if (ft_have_nl(stash))
+		if (ft_control_newline(stash) == 1)
 		{
-			line = ft_extract_line(stash);
+			line = ft_control_line(stash);
 			if (!line)
 				return (ft_free_stash(&stash, 0));
 			return (stash = ft_recreate_stash(stash), line);

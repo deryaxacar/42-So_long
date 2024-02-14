@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:34:39 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:34:40 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:34:03 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:34:04 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
