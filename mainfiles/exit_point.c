@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   exit_point.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:30:17 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:30:24 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 21:04:08 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/31 14:08:37 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

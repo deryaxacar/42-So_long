@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/11/21 12:30:58 by deryacar          #+#    #+#              #
-#    Updated: 2023/11/21 12:31:06 by deryacar         ###   ########.fr        #
+#    Created: 2023/10/30 21:00:52 by beonturk          #+#    #+#              #
+#    Updated: 2024/02/09 15:00:24 by deryacar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,7 +46,6 @@ clean:
 					make -C $(LIBFT_PATH) clean
 					make -C $(MINILIBX_PATH) clean
 					make -C $(PRINTF_PATH) clean
-					find . -name '*.o' --delete
 
 fclean:				clean
 					make -C $(LIBFT_PATH) fclean
