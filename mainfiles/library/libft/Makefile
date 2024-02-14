@@ -3,13 +3,12 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+         #
+#    By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/11/21 13:06:40 by deryacar          #+#    #+#              #
-#    Updated: 2023/11/21 13:06:41 by deryacar         ###   ########.fr        #
+#    Created: 2023/10/30 23:39:34 by beonturk          #+#    #+#              #
+#    Updated: 2023/10/30 23:39:35 by beonturk         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
 
 NAME	=	libft.a
 CC	=	gcc

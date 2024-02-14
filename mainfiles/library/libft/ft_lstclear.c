@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:36:01 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:36:03 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:35:13 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:35:14 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

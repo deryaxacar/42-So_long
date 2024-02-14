@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:35:51 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:35:53 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:35:06 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:35:07 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

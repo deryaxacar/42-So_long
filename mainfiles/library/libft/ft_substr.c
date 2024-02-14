@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:39:02 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 13:05:46 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:39:15 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:39:16 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,28 +14,19 @@
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	size_t	i;
-	size_t	j;
-	char	*final;
+	char	*substr;
+	size_t	size;
 
-	if (s)
-	{
-		if (start >= ft_strlen(s) || len == 0 || ft_strlen(s) == 0)
-			return (ft_strdup(""));
-		i = 0;
-		while (i < len && s[i + start] != '\0')
-			i++;
-		final = (char *) malloc((sizeof(char) * i) + 1);
-		if (!(final))
-			return (NULL);
-		j = 0;
-		while (j < i)
-		{
-			final[j] = s[start + j];
-			j++;
-		}
-		final[j] = '\0';
-		return (final);
-	}
-	return (NULL);
+	if (!s)
+		return (NULL);
+	if (start >= ft_strlen(s))
+		return (ft_strdup(""));
+	size = ft_strlen(s + start);
+	if (size < len)
+		len = size;
+	substr = (char *)malloc(len + 1);
+	if (!substr)
+		return (NULL);
+	ft_strlcpy(substr, (char *)s + start, len + 1);
+	return (substr);
 }

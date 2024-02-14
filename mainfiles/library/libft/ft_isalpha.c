@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:35:22 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:51:00 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:34:41 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:34:42 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

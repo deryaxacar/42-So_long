@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:38:30 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 13:04:09 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:37:41 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:37:42 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,20 +14,20 @@
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	char			*str;
-	unsigned int	i;
+	char			*new_str;
+	unsigned int	index;
 
-	if (!s)
+	index = 0;
+	if (!s || !f)
 		return (NULL);
-	str = (char *)malloc(ft_strlen(s) + 1);
-	if (!str)
+	new_str = (char *)malloc(sizeof(char) * (ft_strlen(s) + 1));
+	if (!new_str)
 		return (NULL);
-	i = 0;
-	while (s[i] != '\0')
+	while (s[index])
 	{
-		str[i] = f(i, s[i]);
-		i++;
+		new_str[index] = f(index, s[index]);
+		index++;
 	}
-	str[i] = '\0';
-	return (str);
+	new_str[index] = '\0';
+	return (new_str);
 }

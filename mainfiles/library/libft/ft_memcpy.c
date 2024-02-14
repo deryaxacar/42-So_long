@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:36:47 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 13:09:56 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:35:51 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:35:52 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,18 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
+	char	*dest;
+	char	*sc;
 	size_t	i;
 
+	dest = (char *)dst;
+	sc = (char *)src;
+	i = 0;
 	if (!dst && !src)
 		return (0);
-	i = 0;
 	while (i < n)
 	{
-		((unsigned char *)dst)[i] = ((unsigned char *)src)[i];
+		dest[i] = sc[i];
 		i++;
 	}
 	return (dst);

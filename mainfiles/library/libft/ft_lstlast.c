@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstlast.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:36:16 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:53:21 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:35:26 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:35:27 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 t_list	*ft_lstlast(t_list *lst)
 {
-	if (!lst)
-		return (0);
-	while (lst->next != NULL)
+	while (lst)
 	{
+		if (!lst->next)
+			return (lst);
 		lst = lst->next;
 	}
 	return (lst);

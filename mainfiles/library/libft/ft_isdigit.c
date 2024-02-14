@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:35:36 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:35:37 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:34:54 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:34:55 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

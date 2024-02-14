@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:39:13 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:39:16 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:39:20 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:39:21 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

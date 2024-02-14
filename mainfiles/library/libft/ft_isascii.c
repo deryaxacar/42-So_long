@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:35:29 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:50:51 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:34:48 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:34:48 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

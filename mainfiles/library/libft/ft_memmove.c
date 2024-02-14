@@ -3,25 +3,39 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:36:58 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 13:10:33 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:35:55 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:35:56 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dst, const void *src, size_t n)
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
+	unsigned int	count;
+
 	if (!dst && !src)
 		return (NULL);
-	if (dst < src)
-		ft_memcpy(dst, src, n);
-	else if (dst > src)
+	if (dst > src)
 	{
-		while (n--)
-			*((unsigned char *)(dst + n)) = *((unsigned char *)(src + n));
+		while (len > 0)
+		{
+			((char *)dst)[len -1] = ((const char *)src)[len - 1];
+			len--;
+		}
 	}
+	else if (src > dst)
+	{
+		count = 0;
+		while (count < len)
+		{
+			((char *)dst)[count] = ((const char *)src)[count];
+			count++;
+		}
+	}
+	else
+		ft_memcpy(dst, src, len);
 	return (dst);
 }

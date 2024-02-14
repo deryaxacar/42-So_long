@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:38:35 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:38:36 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:37:47 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:37:48 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deryacar <deryacar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: beonturk <beonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/21 12:35:41 by deryacar          #+#    #+#             */
-/*   Updated: 2023/11/21 12:35:42 by deryacar         ###   ########.fr       */
+/*   Created: 2023/10/30 23:34:58 by beonturk          #+#    #+#             */
+/*   Updated: 2023/10/30 23:34:59 by beonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
