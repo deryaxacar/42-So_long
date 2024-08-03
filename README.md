@@ -1,5 +1,5 @@
 <!-- Proje Başlığı -->
-<h1 align="center"> 42 - So_long</h1>
+<h1 align="center"> 42 - So_long 🕹️</h1>
 
 <!-- Proje Açıklaması -->
 <p align="center">
