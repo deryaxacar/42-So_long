@@ -63,8 +63,8 @@ Projeyi yerel bir makinede çalıştırmak için aşağıdaki adımları izleyin
    Make
 4. Oyunu başlatın ve labirent dosyasını argüman olarak girin:
    ```bash
-   ./so_long path/to/map.ber
-Burada, path/to/map.ber oyunun labirentini tanımlayan dosyanın yolunu belirtir. Labirent dosyası .ber uzantısına sahip olmalı ve karakterinizin hareket edeceği labirenti içermelidir. 🗂️
+   ./so_long map.ber
+Burada, map.ber Labirent dosyası .ber uzantısına sahip olmalı ve karakterinizin hareket edeceği labirenti içermelidir. 🗂️
 
 ## Katkıda Bulunma 🤝
 So_long projesine katkıda bulunmak isterseniz, aşağıdaki adımları takip edebilirsiniz:
