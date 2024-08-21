@@ -72,4 +72,6 @@ So_long projesine katkıda bulunmak isterseniz, aşağıdaki adımları takip ed
 - Sorun Bildirme: Bir sorun veya hata ile karşılaşırsanız, lütfen GitHub Issues sayfasından bir sorun bildirimi oluşturun.
 - Katkıda Bulunma: Kod katkıları yapmak istiyorsanız, önce projeyi fork edin, değişikliklerinizi yapın ve ardından bir pull request oluşturun. Değişikliklerinizi açıklayan bir not eklemeyi unutmayın.
 
-Derya ACAR
+---
+
+Bu README dosyası Derya ACAR tarafından hazırlanmıştır.
