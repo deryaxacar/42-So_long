@@ -1,14 +1,21 @@
 <!-- Proje Başlığı -->
 <h1 align="center"> 42 - So_long 🕹️</h1>
 
-<!-- Proje Açıklaması -->
-<p align="center">
-So_long projesi, 2D bir labirent oyunu oluşturmayı amaçlar. Bu oyun, kullanıcının bir karakteri bir labirent içinde hareket ettirerek belirli hedeflere ulaşmasını sağlar. Proje, temel olarak oyun programlama, grafik yönetimi ve kullanıcı etkileşimi konularında bilgi edinmeyi sağlar. Oyun, temel oyun mekaniği, çarpışma algılama ve olay yönetimi gibi konuları içerir.</p>
-
 <!-- Proje Logosu veya Görseli -->
 <p align="center">
   <a target="blank"><img src="https://i.hizliresim.com/51fltai.png" height="150" width="150" /></a>
 </p>
+
+<!-- Proje Açıklaması -->
+<p align="center">
+So_long projesi, 2D bir labirent oyunu oluşturmayı amaçlar. Bu oyun, kullanıcının bir karakteri bir labirent içinde hareket ettirerek belirli hedeflere ulaşmasını sağlar. Proje, temel olarak oyun programlama, grafik yönetimi ve kullanıcı etkileşimi konularında bilgi edinmeyi sağlar. Oyun, temel oyun mekaniği, çarpışma algılama ve olay yönetimi gibi konuları içerir.</p>
+
+---
+
+![game](https://i.hizliresim.com/by7jmeg.png)
+
+---
+
 
 ## Projenin Amacı 🎯
 
