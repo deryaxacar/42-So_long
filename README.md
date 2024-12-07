@@ -1,14 +1,15 @@
-<!-- Proje Başlığı -->
+<!-- Project Title -->
 <h1 align="center"> 42 - So_long 🕹️</h1>
 
-<!-- Proje Logosu veya Görseli -->
+<!-- Project Logo or Image -->
 <p align="center">
   <a target="blank"><img src="https://i.hizliresim.com/51fltai.png" height="150" width="150" /></a>
 </p>
 
-<!-- Proje Açıklaması -->
+<!-- Project Description -->
 <p align="center">
-So_long projesi, 2D bir labirent oyunu oluşturmayı amaçlar. Bu oyun, kullanıcının bir karakteri bir labirent içinde hareket ettirerek belirli hedeflere ulaşmasını sağlar. Proje, temel olarak oyun programlama, grafik yönetimi ve kullanıcı etkileşimi konularında bilgi edinmeyi sağlar. Oyun, temel oyun mekaniği, çarpışma algılama ve olay yönetimi gibi konuları içerir.</p>
+The So_long project aims to create a 2D maze game. In this game, the player controls a character to move through a maze and reach specific goals. The project provides an opportunity to learn about game programming, graphic management, and user interaction. It covers fundamental game mechanics, collision detection, and event management.
+</p>
 
 ---
 
@@ -23,55 +24,55 @@ So_long projesinin amacı, 2D bir labirent oyunu oluşturmaktır. Oyunda, kullan
 
 Labirent, bir dizi harita dosyasından oluşturulur ve karakter, oyuncunun yönlendirmesiyle bu labirentte hareket eder. Proje, çarpışma algılama, oyun olaylarını yönetme ve kullanıcı etkileşimlerini işleme gibi temel oyun programlama becerilerini geliştirmeyi sağlar.
 
-### Temel Hedefler 🏆
+### Core Objectives 🏆
 
-- **Labirent Oluşturma:** 2D labirent haritalarını okuyup, ekran üzerinde doğru bir şekilde render etmek. Harita dosyaları, duvarlar, geçişler ve hedef noktaları içermelidir. Bu, oyunun görsel yapısını ve işlevselliğini belirler. 🗺️
-- **Karakter Hareketi:** Kullanıcının karakteri yön tuşlarıyla labirent içinde serbestçe hareket ettirmesini sağlamak. Karakterin hareketi, oyuncunun navigasyonunu ve oyun akıcılığını artırır. 🕹️
-- **Çarpışma Algılama:** Karakterin labirent içindeki duvarlar ve diğer nesnelerle çarpışmalarını algılamak. Bu, karakterin geçilemez alanlarla etkileşimini yönetir ve oyunun fizik kurallarını uygular. 🚧
-- **Oyun Olayları:** Oyunun başlangıcı, bitişi ve diğer kullanıcı etkileşimlerini yönetmek. Bu, oyunun akışını ve oyuncu geri bildirimlerini düzenler, seviyeler arası geçişler ve hedef tamamlama gibi olayları içerir. 🎮
-- **Kullanıcı Etkileşimi:** Oyuncunun oyuna olan etkileşimini geliştirmek için kullanıcı arayüzü ve kontrol mekanizmalarını optimize etmek. Bu, oyuncunun oyunu daha iyi anlamasını ve keyif almasını sağlar. 🖱️
-- **Oyun Performansı:** Oyunun genel performansını ve verimliliğini artırmak. Grafiklerin ve etkileşimlerin akıcı bir şekilde işlenmesi, teknik sorunların önlenmesi ve oyuncu deneyiminin iyileştirilmesini sağlar. ⚡
+- **Maze Creation:** Read and render 2D maze maps accurately on the screen. The map files should contain walls, passages, and goal points, determining the game's visual structure and functionality. 🗺️
+- **Character Movement:** Allow the user to freely move the character through the maze using arrow keys. The character’s movement enhances navigation and game fluidity. 🕹️
+- **Collision Detection:** Detect collisions between the character and walls or other objects in the maze. This manages interactions with impassable areas and enforces the game's physics rules. 🚧
+- **Game Events:** Manage the game's start, end, and other user interactions. This includes organizing game flow, player feedback, level transitions, and goal completions. 🎮
+- **User Interaction:** Optimize user interface and control mechanisms to improve the player's experience and interaction with the game. This helps the player understand and enjoy the game more effectively. 🖱️
+- **Game Performance:** Enhance the overall performance and efficiency of the game. Smooth graphic rendering and interaction handling improve the technical aspects of the game and the player’s experience. ⚡
 
-## Kullanılan Araçlar 🛠️
+## Tools Used 🛠️
 
-So_long projesinde kullanılan bazı temel araçlar ve kütüphaneler şunlardır:
+Some key tools and libraries used in the So_long project are:
 
-- **MiniLibX**: Grafik işlemleri ve pencere yönetimi için kullanılan bir kütüphane.
-- **Xlib**: X Window System ile etkileşim için kullanılan bir kütüphane.
+- **MiniLibX:** A library used for graphics operations and window management.
+- **Xlib:** A library used for interacting with the X Window System.
 
-## Gereksinimler 📋
+## Requirements 📋
 
-So_long projesini çalıştırmak için aşağıdaki gereksinimlerin sağlanması gerekir:
+To run the So_long project, the following requirements must be met:
 
-- Unix tabanlı bir işletim sistemi (Linux, macOS)
-- GCC derleyici
-- MiniLibX kütüphanesi
+- A Unix-based operating system (Linux, macOS)
+- GCC compiler
+- MiniLibX library
 
-## Kurulum 🔧
+## Installation 🔧
 
-Projeyi yerel bir makinede çalıştırmak için aşağıdaki adımları izleyin:
+To run the project locally, follow these steps:
 
-1. Repoyu yerel makinenize klonlayın:
+1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/username/so_long.git
 
-2. Proje dizinine gidin:
+2. Navigate to the project directory:
    ```bash
    cd so_long
-3. Projeyi derlemek için Makefile'ı çalıştırın:
+3. Run the Makefile to compile the project:
    ```bash
    Make
-4. Oyunu başlatın ve labirent dosyasını argüman olarak girin:
+4. Start the game and provide the maze file as an argument:
    ```bash
    ./so_long map.ber
-Burada, map.ber Labirent dosyası .ber uzantısına sahip olmalı ve karakterinizin hareket edeceği labirenti içermelidir. 🗂️
+Here, map.ber should be a maze file with the .ber extension containing the maze layout in which your character will move. 🗂️
 
-## Katkıda Bulunma 🤝
-So_long projesine katkıda bulunmak isterseniz, aşağıdaki adımları takip edebilirsiniz:
+## Contributing 🤝
+If you would like to contribute to the So_long project, follow these steps:
 
-- Sorun Bildirme: Bir sorun veya hata ile karşılaşırsanız, lütfen GitHub Issues sayfasından bir sorun bildirimi oluşturun.
-- Katkıda Bulunma: Kod katkıları yapmak istiyorsanız, önce projeyi fork edin, değişikliklerinizi yapın ve ardından bir pull request oluşturun. Değişikliklerinizi açıklayan bir not eklemeyi unutmayın.
+- Reporting Issues: If you encounter a bug or issue, please create an issue on the GitHub Issues page.
+- Contributing Code: To make code contributions, first fork the project, make your changes, and then create a pull request. Don’t forget to include a note explaining your changes.
 
 ---
 
-Bu README dosyası Derya ACAR tarafından hazırlanmıştır.
+This README was prepared by Derya ACAR.
