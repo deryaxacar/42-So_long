@@ -3,7 +3,7 @@
 
 <!-- Project Logo or Image -->
 <p align="center">
-  <a target="blank"><img src="https://i.hizliresim.com/51fltai.png" height="150" width="150" /></a>
+  <a target="blank"><img src="https://github.com/deryaxacar/mg/blob/main/p-logo/so_long.png" height="150" width="150" /></a>
 </p>
 
 <!-- Project Description -->
