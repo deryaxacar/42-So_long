@@ -75,4 +75,5 @@ If you would like to contribute to the So_long project, follow these steps:
 
 ---
 
-This README was prepared by Derya ACAR.
+<p align="center">© 2025 This project was created by Derya ACAR.</p>
+
