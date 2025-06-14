@@ -13,16 +13,17 @@ The So_long project aims to create a 2D maze game. In this game, the player cont
 
 ---
 
-![game](https://i.hizliresim.com/by7jmeg.png)
+![game](https://github.com/deryaxacar/42-So_long/blob/main/game.png)
 
 ---
 
 
-## Projenin Amacı 🎯
+## Project Objective 🎯
 
-So_long projesinin amacı, 2D bir labirent oyunu oluşturmaktır. Oyunda, kullanıcı bir karakteri bir labirent içinde yönlendirerek belirli hedeflere ulaşmayı amaçlar. Bu projede, oyun mekaniği, grafik yönetimi ve kullanıcı etkileşimi gibi konulara odaklanılır.
+The objective of the **So_long** project is to create a 2D maze game. In the game, the player controls a character navigating through a maze to reach specific goals. This project focuses on game mechanics, graphics management, and user interaction.
 
-Labirent, bir dizi harita dosyasından oluşturulur ve karakter, oyuncunun yönlendirmesiyle bu labirentte hareket eder. Proje, çarpışma algılama, oyun olaylarını yönetme ve kullanıcı etkileşimlerini işleme gibi temel oyun programlama becerilerini geliştirmeyi sağlar.
+The maze is constructed from a set of map files, and the character moves within the maze based on user input. The project helps develop fundamental game programming skills such as collision detection, managing game events, and handling user inputs.
+
 
 ### Core Objectives 🏆
 
